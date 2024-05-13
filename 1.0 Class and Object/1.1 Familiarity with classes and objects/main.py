@@ -1,11 +1,18 @@
+# Description of the class
 class MyClass:
     pass
 
+#Create a object
 A=MyClass()
 B=MyClass()
 
-print("A:",A)
-print("B:",B)
+# Objects
+print("A:", A)
+print("B:", B)
 
-print("A:",type(A).__name__)
-print("B:",type(B).__name__)
+# Type of the objects
+print("A:", type(A).__name__)
+print("B:", type(B).__name__)
+
+#
+print("A == B", A == B)
