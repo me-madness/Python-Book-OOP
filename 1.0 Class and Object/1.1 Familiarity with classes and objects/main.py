@@ -14,5 +14,5 @@ print("B:", B)
 print("A:", type(A).__name__)
 print("B:", type(B).__name__)
 
-#
+# Compare
 print("A == B", A == B)
